@@ -4,7 +4,7 @@ import Link from "next/link"
 import { UserAuthForm } from "./auth-form"
 import { Map } from "lucide-react"
 import { getServerSession } from "next-auth"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/app/api/auth/[...nextauth]/utils"
 import { redirect } from "next/navigation"
 
 export const metadata: Metadata = {
@@ -40,9 +40,7 @@ export default async function AuthenticationPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg">
-                &ldquo;This library has saved me countless hours of work and
-                helped me deliver stunning designs to my clients faster than
-                ever before.&rdquo;
+                &ldquo;This platform has made it so easy for me to find great accessible places to dine at&rdquo;
               </p>
               <footer className="text-sm">Sofia Davis</footer>
             </blockquote>
@@ -55,7 +53,8 @@ export default async function AuthenticationPage() {
                 Create an account
               </h1>
               <p className="text-sm text-muted-foreground">
-                Enter your email below to create your account
+                {/* Enter your email below to create your account */}
+                Use Google to Sign In :D
               </p>
             </div>
             <UserAuthForm />

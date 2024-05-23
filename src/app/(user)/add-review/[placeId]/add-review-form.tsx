@@ -71,7 +71,7 @@ export function AddReviewForm({ placeId, user }: Props) {
                 />
               </FormControl>
               <FormDescription>
-                Try not to write about things irrelevant to the place's accessibility.
+                {"Try not to write about things irrelevant to the place's accessibility."}
               </FormDescription>
               <FormMessage />
             </FormItem>

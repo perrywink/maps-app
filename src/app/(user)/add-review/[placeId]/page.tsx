@@ -2,7 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import { AddReviewForm } from "./add-review-form";
 import prisma from "@/lib/db";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/app/api/auth/[...nextauth]/utils";
 import { LoadError } from "@/components/load-error";
 import { RequestAuth } from "@/components/request-auth";
 

@@ -36,7 +36,7 @@ export function MobileNav({navLinks}: Props) {
             className="flex items-center mb-4"
             onOpenChange={setOpen}
           >
-            <span className="font-bold">// Great Spaces</span>
+            <span className="font-bold">{"// Great Spaces"}</span>
           </MobileLink>
           {
             navLinks.map((navLink, i) => (

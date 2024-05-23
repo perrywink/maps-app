@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { MobileNav } from "./mobile-nav"
 import MainNav from "./main-nav"
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/app/api/auth/[...nextauth]/utils";
 import { Button } from "../ui/button";
 import { LogIn } from "lucide-react";
 import Link from "next/link";

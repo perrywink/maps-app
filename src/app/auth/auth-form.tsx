@@ -25,7 +25,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
   return (
     <div className={cn("grid gap-6", className)} {...props}>
-      <form onSubmit={onSubmit}>
+      {/* <form onSubmit={onSubmit}>
         <div className="grid gap-2">
           <div className="grid gap-1">
             <Label className="sr-only" htmlFor="email">
@@ -38,7 +38,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               autoCapitalize="none"
               autoComplete="email"
               autoCorrect="off"
-              disabled={isLoading}
+              disabled
             />
           </div>
           <Button disabled={isLoading}>
@@ -58,7 +58,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
             Or continue with
           </span>
         </div>
-      </div>
+      </div> */}
       <Button variant="outline" type="button" disabled={isLoading} onClick={() => signIn("google")}>
         {isLoading ? (
           <CircleEllipsis className="mr-2 h-4 w-4 animate-ping" />

@@ -20,7 +20,7 @@ export default function MainNav({ navLinks }: Props) {
           href="/"
           className="font-bold"
         >
-          // Great Spaces
+          {"// Great Spaces"}
         </Link> 
         {
           navLinks.map((navLink, i) => (
