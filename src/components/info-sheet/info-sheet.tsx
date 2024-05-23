@@ -48,7 +48,7 @@ export function InfoSheet() {
     return (
       <Alert>
         <Telescope className="h-4 w-4" />
-        <AlertTitle>Start exploring accessible spaces around you!</AlertTitle>
+        <AlertTitle>Start exploring spaces around you!</AlertTitle>
         <AlertDescription>
           Start typing above to discover restaurants, parks, and so much more.
         </AlertDescription>
